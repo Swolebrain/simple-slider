@@ -1,8 +1,8 @@
 $(function(){
     $("#first").toggle();
     var currentIndex = 0,
-      items = $('.caroussel-container div'),
-      itemAmt = items.length;
+        items = $('.caroussel-container div'),
+        itemAmt = items.length;
     
     function cycleItems() {
         var item, fadeIn;
