@@ -19,14 +19,3 @@
   height: auto;
 }
 
-button {
-  position: absolute;
-}
-
-.next {
-  right: 5px;
-}
-
-.prev {
-  left: 5px;
-}
