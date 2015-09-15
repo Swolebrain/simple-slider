@@ -9,14 +9,19 @@
   background-color: white;
   width: 100%;
   display: inline-block;
-  display: none;
-  transition: display 2s;
+  /*display: none;*/
+    opacity:0;
+  transition: all 3s;
   position:absolute;
   top:0;
-  left:auto;
 }
 .caroussel-container img {
   width: 100%;
   height: auto;
+}
+
+.current-img-div{
+    opacity: 1 !important;
+    transform: scale(2,2) !important;
 }
 
