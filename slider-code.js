@@ -1,5 +1,5 @@
 $(function(){
-    $("#first").toggle(); 
+        $("#first").toggle(); 
     var currentIndex = 0,
         items = $('.caroussel-container div'),
         itemAmt = items.length;
@@ -19,6 +19,8 @@ $(function(){
         }
         item.hide("drop");
         fadeIn.toggle("fade");
+        
+        
     }
     
     var autoSlide = setInterval(function() {
